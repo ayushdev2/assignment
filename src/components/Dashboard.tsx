@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { signOut } from 'next-auth/react'
-import { useTheme } from '@/contexts/ThemeContext'
+import { useTheme } from '../contexts/ThemeContext'
 import PasswordGenerator from './PasswordGenerator'
 import VaultList from './VaultList'
 import VaultItemForm from './VaultItemForm'

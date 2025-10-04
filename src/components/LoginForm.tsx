@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
-import { useTheme } from '@/contexts/ThemeContext'
+import { useTheme } from '../contexts/ThemeContext'
 
 export default function LoginForm() {
   const [isLogin, setIsLogin] = useState(true)

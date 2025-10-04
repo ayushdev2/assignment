@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { generateSecurePassword, getPasswordStrength } from '@/lib/crypto'
+import { generateSecurePassword, getPasswordStrength } from '../lib/crypto'
 
 interface PasswordGeneratorProps {
   onGenerate?: (password: string) => void
