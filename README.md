@@ -216,11 +216,6 @@ db.vaultitems.find({}, {encryptedPassword: 1, title: 1})
 
 This project is licensed under the MIT License.
 
-## 🔗 Links
-
-- **LinkedIn Company**: [Web Development Company](https://in.linkedin.com/company/web-development-company-top)
-- **Founder**: [Setu Agrawal](https://in.linkedin.com/in/setu-agrawal-1032681aa)
-
 ---
 
 **Built with ❤️ using Next.js, TypeScript, and MongoDB**
