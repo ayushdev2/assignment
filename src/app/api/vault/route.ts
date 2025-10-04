@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
       .lean()
 
     // Decrypt passwords for client
-    const decryptedItems = vaultItems.map(item => ({
+    const decryptedItems = vaultItems.map((item: any) => ({
       ...item,
       _id: item._id.toString(),
       userId: item.userId.toString(),
