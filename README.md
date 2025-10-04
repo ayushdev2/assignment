@@ -4,7 +4,17 @@ A modern, secure password manager built with Next.js, TypeScript, and MongoDB. G
 
 ## 🚀 Live Demo
 
-[Live Demo URL will be added here]
+**🔗 Live Application**: [https://assignment-hvg6kh20q-ayushdev2s-projects.vercel.app](https://assignment-hvg6kh20q-ayushdev2s-projects.vercel.app)
+
+**📊 Vercel Dashboard**: [https://vercel.com/ayushdev2s-projects/assignment](https://vercel.com/ayushdev2s-projects/assignment)
+
+### 🚀 Quick Start (Try Now!)
+1. **Visit**: [Live Demo](https://assignment-hvg6kh20q-ayushdev2s-projects.vercel.app)
+2. **Sign Up**: Create account with email/password
+3. **Generate**: Create secure passwords with custom options
+4. **Save**: Store passwords in encrypted vault
+5. **Search**: Find passwords instantly
+6. **Copy**: One-click copy with auto-clear
 
 ## ✨ Features
 
@@ -194,15 +204,31 @@ db.vaultitems.find({}, {encryptedPassword: 1, title: 1})
 // Should show encrypted blobs, not plaintext passwords
 ```
 
-## 📝 Development Notes
+## 🌐 Deployment Status
 
-- TypeScript for type safety
-- ESLint configuration for code quality
-- Responsive design with Tailwind CSS
+### ✅ Production Deployment (Vercel)
+- **Status**: 🟢 Live and Running
+- **URL**: https://assignment-hvg6kh20q-ayushdev2s-projects.vercel.app
+- **Build**: Successful
+- **Database**: MongoDB Atlas Connected
+- **SSL**: Automatic HTTPS Enabled
+- **CI/CD**: Auto-deploy from GitHub
+
+### � Performance
+- **Build Time**: ~15 seconds
+- **First Load JS**: 102 kB (shared)
+- **Page Load**: Optimized for speed
+- **Mobile**: Fully responsive
+
+## �📝 Development Notes
+
+- TypeScript for type safety and better development experience
+- ESLint configuration for code quality enforcement
+- Responsive design with Tailwind CSS v4
 - Dark mode with system preference detection
 - Accessibility considerations (ARIA labels, keyboard navigation)
-- Error handling and loading states
-- Input validation on both client and server
+- Comprehensive error handling and loading states
+- Input validation on both client and server sides
 
 ## 🤝 Contributing
 
@@ -218,4 +244,19 @@ This project is licensed under the MIT License.
 
 ---
 
-**Built with ❤️ using Next.js, TypeScript, and MongoDB**
+## 🔗 Links
+
+### 🌐 Application Links
+- **🚀 Live Demo**: [https://assignment-hvg6kh20q-ayushdev2s-projects.vercel.app](https://assignment-hvg6kh20q-ayushdev2s-projects.vercel.app)
+- **📁 GitHub Repository**: [https://github.com/ayushdev2/assignment](https://github.com/ayushdev2/assignment)
+- **📊 Vercel Dashboard**: [https://vercel.com/ayushdev2s-projects/assignment](https://vercel.com/ayushdev2s-projects/assignment)
+
+### 👥 Company & Founder
+- **LinkedIn Company**: [Web Development Company](https://in.linkedin.com/company/web-development-company-top)
+- **Founder**: [Setu Agrawal](https://in.linkedin.com/in/setu-agrawal-1032681aa)
+
+---
+
+**🎉 SecureVault MVP - Successfully Deployed & Ready for Use!**
+
+**Built with ❤️ using Next.js 15, TypeScript, MongoDB & Vercel**
